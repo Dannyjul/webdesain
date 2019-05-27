@@ -1,0 +1,106 @@
+html, body, section
+{
+    position: relative;
+    height: 100%;
+}
+
+html
+{
+    scroll-behavior: smooth; /*supaya halaman bisa discroll*/
+}
+
+.peding-tambahan
+{
+    padding: 25px;
+}
+
+#tentang
+{
+    padding: 150px;
+}
+
+#tentang h1
+{
+    color: dodgerblue;
+    margin-bottom: 0px
+}
+
+#tentang h3
+{
+    color: crimson;
+    margin-bottom: 20px;
+}
+
+#pengalaman
+{
+    padding: 90px;
+    background-color: gainsboro;
+}
+
+#pengalaman h1
+{
+    color: darkorange;
+    margin-bottom: 30px;
+}
+
+#keahlian
+{
+    background-color: forestgreen;
+    padding: 100px;
+}
+
+#keahlian .container
+{
+    overflow: hidden;
+}
+
+#keahlian h1
+{
+    margin-bottom: 30px;
+    color: yellow;
+}
+
+.kotak-keahlian
+{
+    margin: auto;
+}
+
+#kontak
+{
+    padding: 100px;
+    background-color: crimson;
+    color: white;
+}
+
+#kontak form
+{
+    background-color: white;
+    border-radius: 10px;
+    color:  black;
+    padding: 20px;
+}
+
+#kontak h1
+{
+    margin-bottom: 30px;
+}
+
+#kontak form input, #kontak form textarea
+{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid gainsboro;
+}
+
+#kontak form input[type=submit]
+{
+    background-color: crimson;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    font-size: 19px;
+}
